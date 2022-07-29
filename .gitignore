@@ -1,0 +1,14 @@
+.vscode/
+.DS_Store
+node_modules/
+build/
+dist/
+tmp/
+temp/
+
+database/*
+!database/.gitkeep 
+
+log/*
+!log/.gitkeep 
+*.log

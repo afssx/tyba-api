@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  tyba_api:
+    container_name: 'tyba_api'
+    build: .
+    restart: always
+    volumes:
+      - .:/app/
+      - /app/node_modules
